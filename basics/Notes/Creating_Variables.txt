@@ -1,0 +1,56 @@
+Problem:
+Let's put your knowledge on creating variables into practice
+and help a travel journaling app keep track of a traveler's location.
+
+
+Task:
+We'll create the variables for the country, state, and city
+the traveler is in and give them string values.
+
+
+Solution:
+1. Let's start with the variable that keeps track of the country.
+   Start creating the variable by typing 'var'.
+2. Give the variable a descriptive name such as 'country'.
+3. Give the country variable the string value "USA".
+4. To finish creating the country variable, 
+   put a semicolon at the end of the line.
+5. Now let's create a variable to track the state the traveler is located in.
+   Create a 'state' variable and give it the string name "Florida".
+6. Next up: the city.
+   Type the keyword to create a variable.
+7. Give the variable a valid name i.e. 'city'.
+8. Give the city variable the string value "Miami".
+9. Now try creating a 'continent' variable with a string value
+   "North America" on your own. 
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+Problem:
+Let's put your knowledge on 'Creating Variables' into practice
+and write an app on Mario, the famous video game character.
+
+
+Task:
+We'll create variables for Mario's name and job and use them
+to tell the world about him. Or at least the console.
+
+
+Solution:
+1. Let's start with the variable for Mario's name.
+   Type the three-letter keyword to create a variable.
+2. Call the variable as 'name'.
+3. Give the 'name' variable the string value "Mario"
+   and put a semicolon at the end of the line.
+4. Create a 'job' variable and give it a string value.
+5. Time to display Mario's name.
+   Code the special instruction to display a value in the console.
+6. Place the 'name' variable between the parentheses of 
+   'console.log()' and put a semicolon at the end of the line.
+7. Use 'console.log()' to display the value of the 'job' variable.
+8. Now try changing the values of the variables 'name' and 'job'
+   to other string values.

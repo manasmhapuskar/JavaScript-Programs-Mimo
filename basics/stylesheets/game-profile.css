@@ -1,0 +1,27 @@
+body{
+    background-color: antiquewhite;
+}
+
+.game-profile-div {
+    background-color: antiquewhite;
+    font-family: monospace;
+    font-size: 20px;
+    width: 500px;
+    padding: 40px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.username-p {
+    background-color: cornsilk;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.character-name-p {
+    background-color: mistyrose;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
