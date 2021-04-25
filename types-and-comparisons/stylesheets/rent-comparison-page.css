@@ -1,0 +1,19 @@
+body {
+    color: midnightblue;
+    text-align: center;
+    width: 45%;
+    margin: 10px auto;
+}
+
+.paris-rent-p,
+.barca-rent-p {
+    background-color: lavenderblush;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.city-comparison-p {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+}

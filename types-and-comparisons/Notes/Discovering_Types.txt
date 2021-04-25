@@ -1,0 +1,171 @@
+Problem:
+We'll create an app that evaluates the test score
+of a student to check if they pass a class.
+
+
+Task:
+We'll use variables to store a number and 
+a comparison that becomes true if the student passes
+
+
+Solution:
+1. Create a 'score' variable and store the number 99 in it.
+2. Next, create a 'pass' variable to store the evaluation
+   of the student's test score.
+3. Time to evaluate the student's test score.
+   Compare if 'score' is greater than or equal to 50 and
+   assign the result of the expression, a boolean value to 'pass'.
+4. Display the student's score in the console.
+5. Add the string "Score: " before the 'score' variable 
+   to create a more descriptive console output.
+6. Below, display the evaluation of the student's test score.
+7. Let's make clear what this evaluation means.
+   Join the string "Passed: " with the 'pass' variable inside the console.
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+Problem:
+Let's code a webpage that compares the average rent in two cities,
+informing the user which one is more expensive.
+
+
+Task:
+Part I
+We'll kick off by adding some HTML elements and
+linking the stylesheet.
+
+Part II
+The structure of the webpage is done. Now its time to give it some style.
+We'll add CSS rules that apply to the whole webpage, then specific
+ones for the comparison result.
+ 
+Part III
+Time for adding JavaScript.
+We'll save the rent prices in variables, compare them and
+display the results using your webpage.
+
+
+Solution:
+Part I
+*. Code the doctype, html, head, and body elements.
+1.  For the webpage logo, code an img element with the src attribute,
+    set it to "https://mimo.app/i/compare-cities.png"
+2.  We need paragraphs to display cities we're comparing.
+    After the img element, add two paragraphs with 'class' set to "city".
+3.  First Stop: Paris.
+    Inside the first p element, code a strong element with the text,
+    "Paris Rent: 1200 Euros" between the tags.
+4.  Next, let's add Barcelona.
+    Inside, the second p element, code a strong element with the text,
+    "Barcelona Rent: 940 Euros".
+5.  We need a paragraph to display the result of the comparison.
+    Code another p element with 'class' set to 'comparison'.
+6.  Next, we'll need to display the rent difference.
+    Code a empty p element that we'll change later with JavaScript.
+7.  Time to link the stylesheet. Inside head, 
+    code a link element with href set to "style.css" and rel to 'stylesheet'.
+
+Part II
+1.  Create a '.city' rule to style the two paragraphs and
+    set the background color to 'lavenderBlush'.
+2.  Set the font-weight to bold and padding to 7px 10px 7px 10px.
+3.  Under the '.city' rule, 
+    code an empty rule that applies to the body element.
+4.  Center all the text on the webpage using text-align.
+5.  Inside the body rule, set font-size to 17px.
+6.  For the text color, add the color attribute set to midnightBlue.
+7.  For the price comparison result, 
+    code an empty rule for the class 'comparison'.
+8.  Make the comparison paragraph pop-out by 
+    setting the background color to blueViolet.
+9.  Set the color to white.
+10. Add some space between the paragraph border and
+    the text with the 'padding' attribute set to 7px 10px 7px 10px.
+
+
+Solution:
+*. Added a script element that lets yout JavaScript code interact with the webpage.
+1.  Save the rent values by creating a 'cityRent1' variable set to 1200,
+    and a 'cityRent2' variable set to 940.
+2.  Create a variable named 'isMoreExpensive' set to cityRent1 > cityRent2.
+3.  Create a variable named 'comparisonLabel' and set it to
+    "Paris is more expensive: " + isMoreExpensive.
+4.  Let's take a look at our label.
+    Code a display statment to display 'comparisonLabel' in the console.
+5.  For the rent difference, create a variable named 'difference' and
+    set it to 'cityRent1' minus 'cityRent2'.
+6.  Next, create a variable named 'differenceLabel' and set it to
+    "Rent difference: " plus 'difference' plus " Euros".
+7.  To see what its set to, display 'differenceLabel' in the console.
+8.  To display Paris Rent on the webpage, add an id in the first p element as 'paris' and
+    code 'document.getElementById("paris").innerHTML = "Paris Rent: " + paris;'.
+9.  To display Barcelona Rent on the webpage, add an id in the first p element as 'barca' and
+    code 'document.getElementById("barca").innerHTML = "Barca Rent: " + barca;'.
+10.  To display Comparison on the webpage, add an id in the first p element as 'comparison' and
+    code 'document.getElementById("comparison").innerHTML = "Paris is more expensive: " + rentComparison;'.
+11.  To display Difference on the webpage, add an id in the first p element as 'difference' and
+    code 'document.getElementById("difference").innerHTML = "Rent Difference: " + difference;'.
+
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+
+Problem:
+In this project, we'll write a draft of the JavaScript code
+that's planned for this HTML & CSS app.
+
+After considering regular cost, the app will use our code
+to tell the user whether they should make a purchase or save instead.
+
+
+Task:
+Part I
+We'll add fixed values for the budget and expenses.
+Later, we'll learn how to connect the JavaScript to the user interface.
+We'll use variables to calculate the remaining balance and
+compare strings to check if savings should be prioritized.
+
+Part II
+Now that we have our values and settings, we'll make the calculations 
+and comparisons that'll happen when the user presses "Compute".
+
+Part III
+Later we'll learn how to make this code much smarter.
+But for now, let's change some values and see how much they affect the result.
+
+
+Solution:
+Part I
+1.  To easily make calculations, we need to save the user's budget in a variable.
+    Create the variable 'budget' and save the value 3200 in it.
+2.  The user can decide how important savings are for the month.
+    Create the variable 'savingPriority' and store the string value 'high'.
+3.  The app also records the user's monthly fixed expenses.
+    Create the variable 'rent' with the value 1100 and 'utilities' with 370.
+4.  We'll also add a variable for an item the user wants to purchase.
+    Code the variable 'newLaptop' and give it the value 1200.
+    
+Part II
+1.  To calculate the user's monthly costs, create the variable 'totalCosts'.
+    Then, add 'rent' to 'utilities' and save the result in 'totalCosts'.
+2.  To calculate the remaining budget, create the variable 'budgetLeft'
+    Then, subtract 'totalCosts' from 'budget', and save the result in 'budgetLeft'.
+3.  Next, create the variable 'buyLaptop'. 
+    Check if 'budgetLeft' is at least as much as 'newLaptop',
+    and save the comparison into 'buyLaptop'.
+4.  Let the user know if they can afford the new laptop
+    by displaying the value of the variable 'buyLaptop'.
+5.  Finally, advise the user on whether they should prioritize savings instead.
+    Inside a display statement, check if 'savingPriority' equals "high".
+    
+Part III
+1.  Set the value of budget to 2500, savingPriority to "low", rent to 800,
+    and utilities to 200 and see how the result changes.
+2.  The current code displays 'true' for purchasing the laptop.
+    Change the value of 'newLaptop', so that 'buyLaptop' becomes 'false'.

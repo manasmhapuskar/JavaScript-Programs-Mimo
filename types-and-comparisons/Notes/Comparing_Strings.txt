@@ -1,0 +1,58 @@
+Problem:
+Let's create a trivia program
+We'll use comparisons to check if the player's answers are correct.
+
+
+Task:
+We'll store the correct answer and the two user answers in variables
+and then compare them.
+
+
+Solution:
+1. Display "What color is the sky?" in the console.
+   It will be the first question.
+2. Create a 'correctAnswer' variable and store 'blue' in it.
+3. Now display "Is first answer correct?" in the console.
+4. Craete a 'firstAnswer' variable and store 'red' in it.
+5. Now check if 'correctAnswer' is equal to 'firstAnswer'
+   and display the result in the console.
+6. Create another prompt letting the user know
+   if they chose the correct answer.
+7. Create a 'secondAnswer' variable to keep track
+   of the user's second answer.
+8. Next, get 'secondAnswer' the value "blue" 
+   since this is the second answer the user gives.
+9. Create the print statement that will show
+   if the second answer given is correct.
+10. Compare 'correctAnswer' to 'secondAnswer' to show the user
+    if the second answer they give is correct.
+
+
+
+--------------------------------------------------------------------------------------------------
+
+
+
+Problem:
+Let's create a login process for an administrator's dashboard.
+We'll store the user's account details into variables 
+and then use comparisons to check if they have admin rights.
+
+
+Task:
+Variables account and status store the account details,
+while the other variables store the comparisons.
+
+
+Solution:
+1. Create an 'account' variable and a 'status' variable
+   and store "admin" and "inactive" in them.
+2. We'll use a comparison to check if the 'account' is an "admin"
+   and store the result in a 'isAdmin' variable.
+3. Another variable will hold the result of checking 
+   the account is in a valid state. Code the variable 'isValid'.
+4. Inside 'isValid', check if 'status' does not equal "inactive".
+5. Display the result of the account check stored in 'isAdmin'.
+6. Display the result of the validity check stored in 'isValid'.
+7. To see what happens when a user with a regular account
+   tries to log in, code "regular".
