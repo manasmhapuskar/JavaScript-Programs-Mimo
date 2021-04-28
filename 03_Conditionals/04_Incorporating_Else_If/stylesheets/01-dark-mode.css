@@ -1,0 +1,53 @@
+.theme-mode-div {
+    background-color: lavender;
+    border-radius: 10px;
+    font-family: verdana;
+    width: 40%;
+    padding: 20px 0 70px 0;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.label-mode-p {
+    font-size: 30px;
+}
+
+.image-mode-img {
+    width: 150px;
+}
+
+.mode-options-div {
+    background-color: gainsboro;
+    border-radius: 10px;
+    width: 40%;
+    padding: 20px 0;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.dark-mode-button {
+    background-color: lightsteelblue;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+.light-mode-button {
+    background-color: ghostwhite;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+.ninja-mode-button {
+    background-color: darkgray;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 5px;
+}

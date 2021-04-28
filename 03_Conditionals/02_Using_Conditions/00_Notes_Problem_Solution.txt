@@ -1,0 +1,27 @@
+Problem:
+We'll use comparisons to build an app that tracks
+the 100-meter sprint world record. Ready, set, go!
+
+
+Task:
+We'll compare the variables 'record' and 'time'
+to check if the record is broken.
+
+
+Solution:
+1.  We'll start with a variable to store the world record.
+    Back in 2008, the record was 9.69 seconds.
+    Create the 'record' variable and assign 9.69 to it. 
+2.  To save the current contestant time,
+    create the variable 'time' and assign 10.49 to it.
+3.  Did they break the record? Let's find out.
+    Start with an empty 'if' statement.
+4.  Now, we'll use a comparison to see if the contestant's
+    time was less than the record.
+    Use the < sign to compare time with record.
+5.  We'll want to know if the record was broken right?
+    In the 'if' statement, use console.log() to display "Record broken".
+6.  If the record was broken, the contestant's time will be the new record. 
+    Store the value of 'time' in the 'record' variable.
+7.  This time the contestant finished in 9.58 seconds.
+    Did they break the record? Change the 'time' variable to 9.58.
