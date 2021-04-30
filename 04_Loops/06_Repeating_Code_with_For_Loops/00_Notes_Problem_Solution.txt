@@ -1,0 +1,19 @@
+Problem:
+WAP that helps the MRI Machine make scans of a patient
+to create a composite image.
+
+
+Task:
+Using a counter variable, we'll loop three times
+and display each scan number in the console.
+
+
+Solution:
+1.  Let's turn on our MRI machine.
+    Display "Start MRI Machine" in the console.
+2.  Code the for loop.
+3.  Create a counter variable named 'i',
+    set it to 1, and add the semicolon ';'.
+4.  Create a condition that stops the loop when i is less than 4.
+5.  Complete the for loop by incrementing the counter variable.
+6.  Let's test our loop by printing the counter variable 'i' to the console.

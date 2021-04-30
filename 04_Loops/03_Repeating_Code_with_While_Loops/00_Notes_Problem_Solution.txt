@@ -1,0 +1,21 @@
+Problem:
+Let's write a program that display numbers that
+displays numbers that count upwards in a list. From 1., 2., 3. and so on.
+
+
+Task:
+We'll create a variable named 'number' outside of the loop that keeps track of numbers.
+Then use it to display messages inside the loop.
+
+
+Solution:
+1.  Create a variable named 'number' and set it to 1.
+2.  Add the keyword for creating a 'while' loop.
+3.  Assemble the condition set to true.
+4.  Put together the code block the loop should run over and over again.
+5.  Display number variable in the loop.
+6.  To display '1.' in the console, add "." inside the display statement.
+7.  Since, we want the numbers to increment,
+    add one to the 'number' variable inside the code block using 'number++'.
+8.  Infinite loops are bad. Change the condition so that the loop skips its code.
+    We'll learn how to stop it in a more useful way later.
