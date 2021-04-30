@@ -17,3 +17,60 @@ Solution:
 4.  Create a condition that stops the loop when i is less than 4.
 5.  Complete the for loop by incrementing the counter variable.
 6.  Let's test our loop by printing the counter variable 'i' to the console.
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+Problem:
+Let's use our knowledge of 'for' loops to 
+display a list of comments in the console.
+
+
+Solution:
+1.  Create a variable named 'comments' and assign it 3.
+2.  Code the for loop for displaying the comments.
+3.  Create the counter variable 'i' and set it to 0.
+4.  Code the condition so that it runs its code block
+    while 'i' is less than comments.
+5.  Inside the parentheses, increment the counter variable.
+6.  Last, display "Comment: " and the counter variable in the console.
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+Problem:
+A junior developer wrote a program to display The American Flag,
+but it didn't come out as planned.
+
+
+Task:
+Let's fix the code to display the missing stripes 
+and make the while loop more readable.
+
+JS Code ->
+var i = 0;
+
+while (i < 3) {
+    i++;
+    console.log("***********----------------");
+}
+
+for () {
+    console.log("---------------------------");
+}
+
+
+Solution:
+1.  Repeat the 'for' loop three times 
+    by creating the counter variable 'i' set to 0,
+    the condition 'i < 4', and incrementing i.
+2.  Make the 'while' loop code easier to read by changing
+    it from a 'while' loop to a 'for' loop.
+3.  Add more stripes to the flag by changing the condition
+    of the second 'for' loop.

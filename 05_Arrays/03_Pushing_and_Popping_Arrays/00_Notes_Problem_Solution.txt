@@ -1,0 +1,92 @@
+Problem:
+Let's use push() and pop() to manage 
+the ingredient lists for a dessert recipe.
+*/
+
+
+/*
+Task:
+We'll store the ingredients in the array 'dessert'.
+Then, use pop() to remove an ingredient and push() to add a ingredient.
+*/
+
+
+/*
+Solution:
+1.  Code a variable 'dessert' to store an empty array for the ingredients.
+2.  Place "chocolate", then "banana", and finally "cherry" inside the 'dessert' array.
+3.  A member of the household refuses to have cherries in their dessert.
+    Code 'pop()' to remove "cherry" from the dessert array.
+4.  We need another fruit, so code 'dessert.push("mango") 
+    to add "mango" at the end of the array.
+5.  Let's check the ingredient list!
+    Code a display stmt to make the elements of the array 'dessert' show up on the console.
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+Problem:
+Let's practice using 'push()' and 'pop()'
+to help a website keep track of their posts.
+
+
+Task:
+Once posts are reviewed, we'll use 'pop()' to remove them 
+from the 'review' array and 'push()' to add them to the 'published' array.
+
+
+Solution:
+1.  Create a variable named 'review' set to two posts
+    waiting to be reviewed, "comment", "news".
+2.  Code the variable 'post', and then a semicolon ';'.
+    It will store the value of the reviewed post.
+3.  "news" is reviewed. Set the post variable to 'review.pop()'.
+4.  Create an empty array 'published' to store the values
+    we remove from the review array.
+5.  Use 'push()' to add the 'post' variable to the 'published' array.
+6.  Display the 'review' array in the console.
+    Then, on the next line, display the 'published' array.
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+Problem:
+Let's use our knowledge of dynamically adding and removing array elements
+to move items from a wishlist into a shopping cart.
+
+
+Task:
+We'll remove the last two 'wishlist' items and add them to the cart.
+Then, we'll display the cart prices and their sum.
+
+
+Available Code:
+var book = 40;
+var gardeningTools = 30;
+var headphones = 50;
+var mat = 25;
+
+var wishlist = [book, gardeningTools, headphones, mat];
+
+
+Solution:
+1.  Create a variable named 'cart' and setting it to an empty array.
+    It'll hold the wishlist items the user wants to purchase.
+2.  To store the first item we'll remove from 'wishlist', create the variable 'item1'.
+3.  Use an instruction to remove the last element from the 'wishlist' array,
+    and save it into 'item1'.
+4.  Like before, create the variable 'item2' to store the next item
+    we'll remove from the 'wishlist'.
+5.  Remove headphones and save it in 'item2'.
+6.  Use an instruction to add both 'item1' and 'item2' to the 'cart' array.
+7.  To check out the prices of the items in the cart, display "Cart prices: ".
+    On the next line, display the 'cart' array.
+8.  Next, create a variable named 'total' set to 'item1' plus 'item2'.
+9.  Let the user know how much they'll have to pay by displaying "Total: "
+    followed by the 'total' variable.

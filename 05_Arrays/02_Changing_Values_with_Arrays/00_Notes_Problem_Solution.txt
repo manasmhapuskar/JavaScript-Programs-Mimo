@@ -1,0 +1,66 @@
+Problem:
+Let's practice our knowledge of arrays and indices
+by helping an event set up a battle of the bands.
+
+
+Task:
+The event managed to store the bands in an array 
+but failed to arrange who's to battle whom.
+
+We'll give them a hand by updating 'show1' with bands at even indices 
+and 'show2' with bands at odd indices.
+
+
+Available Code:
+var show1 = "TBA";
+var show2 = "TBA";
+
+var act = ["DC/AC", "King", "Stagnant Boulders", "The Pupae"];
+
+
+Solution:
+1.  Start by adding the 'show1' variable.
+2.  Use the right index to get to 
+    the value of the first element in the array.
+3.  We'll use a string to seperate the battling bands.
+    Use the + sign before and after a " vs " string.
+4.  Since the first band is at index 0, which is an even index,
+    we'll add another band with an even index, like the one at 'act[2]'.
+5.  Next, code 'show2 = ' to start updating the variable for the second show.
+6.  For the second show, we'll use the elements at odd indices.
+    Code 'act[1]' to add the first element with an odd index.
+7.  Again, use the + sign before and after a " vs " string.
+8.  Add the remaining element with an odd index.
+9.  Let's announce who's going to battle whom!
+    Display 'show1' in the console.
+10. For the second battle, display 'show2' in the console.
+
+
+
+--------------------------------------------------------------------------------------------------
+
+
+
+Problem:
+Let's use our knowledge of arrays to manage
+the stock of an online jeans shop.
+
+
+Task:
+The variable 'stock' stores the number of items in stocks for sizes 's', 'm', 'l'.
+Using indices, we'll update the stock values for purchases and returns.
+
+
+Solution:
+1.  The variables 's', 'm' and 'l' store the jeans in stock for each size.
+    Create a variable 'stock' set to an array holding the three variables.
+2.  A customer purchases a pair of jeans in size S.
+    Access the stock variable 's' from the array to start updating it.
+3.  Due to the purchase, we have one item less in size S.
+    Use '-=' to decrease the value of 'stock[0]' by one.
+4.  Another customer returned a pair of jeans in size M.
+    Like before, access the variable 'm' in the array, but increment it by one.
+5.  Let's check out our current stock! Display "Stock: ".
+    Then, tart displaying "s: " followed by the value of the first array element.
+6.  Now, display the stock for size M.
+7.  Finally, let's see how many jean pairs there are left in size L.
