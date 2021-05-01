@@ -1,0 +1,71 @@
+Problem:
+Let's use 'return values' to code a function that speeds up 
+the process of displaying likes on a photo on social media.
+
+
+Task:
+We'll create a 'likedBy()' function that takes a parameter
+and use its return value for an activity feed.
+
+
+Solution:
+1.  First, we'll need an outline of the function.
+    Create the function 'likedBy()' with empty parentheses and braces.
+2.  To make the function customizable, we'll give it a parameter.
+    Add a parameter called 'person' to the function.
+3.  We want to return a value to the outside world, too.
+    Add the keyword required for returning a value.
+4.  Inside the function, combine the parameter with the string to
+    indicate that someone liked a picture with '"Liked by: " + person'.
+5.  Now we can use the return value of the function when we call it.
+    Create a variable called 'result' and call 'likedBy()' 
+    with the value "Rebecca" as a parameter.
+6.  It's time to see this handy function in action.
+    Use the display statement to display the 'result' variable.
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+Problem:
+Let's use return values 
+to build a handy pounds to ounces converter.
+
+
+Solution:
+1.  Start by creating an empty function called 'poundsToOunces'
+    and give it a parameter named 'pounds'.
+2.  Next, create a variable called 'conversion' that holds the value 16.
+    This is the value for the formula we'll use to convert to ounces.
+3.  Create a new variable called 'output' 
+    and inside it store the result of multiplying pounds and conversion.
+4.  Add a return statement and return 'output + " Ounces"'.
+5.  Create a new variable named 'result'
+    and set it to the result of calling 'poundsToOunces()' with the value 6.
+6.  To see how the conversion worked out,
+    display the 'result' variable in the console.
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+Problem:
+Let's use return values to help fix some mixed up arrays.
+
+
+Solution:
+1.  Create an empty function 'swapValues()' with the parameter 'array'.
+2.  Create a variable called 'first'
+    and access the first value of the 'array' parameter.
+3.  Create a variable called 'second'
+    and access the second value of the 'array' parameter.
+4.  Create a variable called 'called'
+    and set it to '[second, first];'.
+5.  Outside of the function,
+    create a 'user' variable set to '["John", "Elton"]'.
+6.  Finally, add a display statement. Inside the display statement,
+    call the 'swapValues()' function with the variable you created earlier.

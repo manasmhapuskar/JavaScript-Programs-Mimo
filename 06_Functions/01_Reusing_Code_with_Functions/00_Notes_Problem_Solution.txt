@@ -1,0 +1,44 @@
+Problem:
+WAP that displays a countdown and a ready-for-takeoff message
+for a rocket launch site.
+
+
+Solution:
+1.  Code the 'function' keyword.
+2.  Give the function a camel-case name, 'launchRocket'.
+3.  Code parentheses after the function name.
+4.  Then, add braces to mark out the lines of code 
+    that belong to the function.
+5.  Before takeoff, there needs to be a countdown.
+    Display "3 2 1" in the console.
+6.  After the countdown, the rocket is good to go.
+    Display "Ready for takeoff" in the console.
+7.  Here we are: at the launch pad.
+    Add the function name and parentheses to run the code 
+    between the braces of the function.
+6.  A single rocket is far from enough to explore outer space.
+    Let's launch a second rocket.
+    Code 'launchRocket();' to call the function.
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+Problem:
+WAP that uses functions to display the placeholder
+for a bingo board in the console.
+
+
+Solution:
+1.  Start by creating an empty function named 'line'.
+2.  Add a display statement along with the string
+    we'll use for indicating a line.
+3.  Add another empty function, this time name it 'columns'.
+4.  Add the next display statement,
+    along with the string we'll use to indicate columns.
+5.  Call the 'line' function once.
+6.  To create the columns, call the columns() function three times.
+7.  Finally, call the line() function one last time
+    to complete the lines and columns correctly.
