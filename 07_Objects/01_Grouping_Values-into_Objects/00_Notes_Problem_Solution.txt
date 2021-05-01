@@ -1,0 +1,98 @@
+Problem:
+Let's create an object for a user on Instagram
+and fill it with properties.
+
+
+Solution:
+1.  Let's jump right into it! 
+    Start creating the 'user' object with 'var' and its name.
+2.  Add an equals sign, a set of curly braces, and a semicolon.
+3.  An instagram user has a unique username to set them apart.
+    Type in 'username' to add the first property.
+4.  Now we just need to decide how we'll call the user.
+    Let's call the user 'cookie_monster'.
+    Set the value of 'username' to "cookie_monster".
+    Start with a colon and end with the value.
+5.  A few moments on Instagram and 2,000 followers already!
+    Add a 'followers' property to the 'user' object and set it to 200.
+6.  The user found 10 users to follow for now. Add a comma after '2000'.
+    Then add a 'following' property and set it to 10.
+7.  The final property the 'user' object needs is 'isOfficial'.
+    Add a comma after '300'. Then add an 'isOfficial' property and a colon.
+8.  Let's give the user some legitimacy for an extra follower boost.
+    Set 'isOfficial' to 'true'. There's no need for a comma since it's the last property.
+9.  It's time to display the user.
+    Add a 'console.log()' statement that displays 'user'.
+    Remember to end with a semicolon ';'.
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+Problem:
+Time to get the music flowing!
+Taylor Swift's fans are anxiously awaiting her Spotify debut.
+
+
+Task:
+We'll create an object for an artist on Spotify 
+and fill it with properties.
+
+
+Solution:
+1.  Start creating the 'artist' object with 'var' and its name.
+2.  Add an equals sign, a set of curly braces, and a semicolon.
+3.  Let's make sure TSwift's fans can look up who they're listening to.
+    Type in 'name' to add our artist's first property.
+4.  Let's set the 'name' property value to "Taylor Swift".
+    Start with a colon and end with the value.
+5.  Wow! our artist is quite swift at producing albums!
+    Add an 'albums' property to the 'artist' object and set it to '15'.
+6.  Since, TSwift is new to Spotify, she doesn't have many listeners yet.
+    Add a comma, then add a 'listeners' property and set it to '250'.
+7.  Let's make sure nobody tries to impersonate our artist.
+    Add a comma after '250', then add a 'verified' property and a colon.
+8.  Set 'verified' to 'true'. Since, this is the last property, 
+    we don't need a comma at the end.
+9.  Let's add a 'console.log()' statement to make sure 
+    we programmed our 'artist' correctly.
+    Remember to end with a semicolon ';'.
+
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+
+Problem:
+The following code keeps track of a team roster.
+Let's create some objects to keep the information organized.
+
+
+Available Code:
+var playerName = "Leo";
+var goalsScored = 4;
+var gamesPlayed = 2;
+
+var teamName = "Lions";
+var numberOfPlayers = 18;
+var varsity = true;
+
+
+Solution:
+1.  The first three variables look like they relate to the same object, a player,
+    Create a new 'player' object with 'var player = {}'.
+2.  Change the variable 'playerName' into a property of the 'player' object
+    by adding 'playerName: "Leo"' inside the curly braces {}.
+3.  Add 'goalsScored: 4' and 'gamesPlayed: 2' as properties of the 'player' object.
+    Don't forget the comma between each property.
+4.  Now create a second object called 'team'. Use the keyword 'var' 
+    and the object name, followed by an equals sign, curly braces, and a semicolon.
+5.  Turn the variables 'teamName', 'numberOfPlayers' and 'varsity'
+    into properties of the object 'team'.
+6.  Let's clean up our code by removing the variables
+    now that they've been converted into properties.
+7.  Our 'player' object is a member of the team.
+    Let's add a 'member' property to the 'team' object, and give it the value 'player'.

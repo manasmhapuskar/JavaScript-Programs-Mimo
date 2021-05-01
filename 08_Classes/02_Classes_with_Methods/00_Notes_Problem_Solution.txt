@@ -1,0 +1,36 @@
+Problem:
+Let's use our knowledge of Classes with Methods
+to code a Bitcoin wallet.
+
+
+Task:
+We'll create a 'BitcoinWallet' class 
+that keeps track of the number of bitcoins inside.
+
+We'll use a class method to handle updating
+the number of bitcoins when they get added.
+
+
+Solution:
+1.  Start by adding the classs name and braces.
+2.  Next, add the keyword required for constructing a new class,
+    along with empty parentheses.
+3.  When this wallet gets created, 
+    it'll need a value for the initial number of bitcoins.
+    Add the parameter 'bitcoin' to the constructor.
+4.  Finish up the constructor by adding the braces,
+    and setting the 'bitcoin' property to a value.
+5.  Now it's time to add the class method
+    that'll handle updating number of bitcoins.
+    Create the method 'addBitcoins' and add empty parentheses.
+    No need for braces yet.
+6.  This method will need a parameter 'bitcoin' and braces.
+7.  To update the number of bitcoins, 
+    we need to update the class property 'this.bitcoins' 
+    with the parameter from the method.
+8.  Code the line that displays the number of bitcoins added.
+9.  Create a new 'wallet' object from 'BitcoinWallet'
+    and set the initial value to 0.
+10. Time to add more bitcoins.
+    Call the 'addBitcoins' method on the 'wallet' object and add 1 bitcoin.
+    Make sure to end with a semicolon.

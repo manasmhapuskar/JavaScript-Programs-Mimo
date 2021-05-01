@@ -1,0 +1,32 @@
+Problem:
+Alex is developing a life simulation game and
+wants to introduce a phone communication feature.
+
+
+Task:
+We'll help her by introducing a virtual phone device and
+a smartphone so that the characters can communicate from a distance.
+
+
+Solution:
+1.  Let's jump right into it!
+    Assemble a class called 'Phone'.
+2.  Create a 'call()' method to the 'Phone' class and
+    give it a parameter named 'user'.
+3.  Within the 'call()' method, 
+    add a line that displays the 'user' we're calling.
+4.  Next up is a 'Smartphone' class.
+    Type the 'class' keyword, followed by the name and braces '{}'.
+5.  Smartphones can do everything that phones do. And more.
+    Make the 'Smartphone' class extend the 'Phone' class.
+6.  The game characters can't make video calls from normal phones,
+    but they should be able to with smartphones.
+    Add the method 'videoCall(user)'.
+7.  Just like before, add a line that displays the name of the user
+    the character is video-calling.
+8.  Brandon is a new character in our game. Let's equip him with a smartphone.
+    Create a new object from the 'Smartphone' class and store it in device.
+9.  Help Brandon take his new device for a test drive!
+    Pick the right method call to reach "Mom" with the new device.
+10. The two characters haven't met in a while, so they decide to switch to a video call.
+    For that, use the 'videoCall()' method of the object that's stored in 'device'.
