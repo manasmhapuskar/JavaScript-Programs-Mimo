@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            List of Robot Kits
+        </title>
+    </head>
+    <body>
+        <h1>Ron's DIY Robots</h1>
+        <ul id="parent">
+            <li>Beginner kit</li>
+            <li>CarBot kit</li>
+        </ul>
+        <script>
+            var list = document.getElementById("parent");
+            var child = document.createElement("li");
+            child.innerHTML = "CatBot kit";
+            list.appendChild(child);
+        </script>
+    </body>
+</html>

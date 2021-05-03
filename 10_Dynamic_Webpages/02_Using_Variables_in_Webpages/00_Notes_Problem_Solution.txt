@@ -1,0 +1,35 @@
+Problem:
+Let's use our knowledge of interacting with elements,
+to update a user's status.
+
+ 
+Task:
+When the page loads, 
+we'll set Jolene's status to online using JavaScript Code.
+
+
+Available Code:
+<html lang = "en">
+    <body>
+        <img src = "https://mimo.app/r/jo.png" alt = "">
+        <h3>Jolene</h3>
+        <p>
+            <em>offline</em>
+        </p>
+    </body>
+</html>
+
+
+Solution:
+1.  To interact with the 'em' element, 
+    start setting the ID with 'id = ""'.
+2.  To easily find the element,
+    choose a descriptive value for the ID attribute, "status".
+3.  Code the 'script' element so we can include JavaScript code.
+4.  Type 'var status;' to create the variable 
+    where we'll save the 'em' element.
+5.  Add an equal sign, then code the instruction needed to access the element.
+6.  Inside the parentheses, use the 'em' element's ID to retrieve it.
+7.  To update the status when the webpage loads, 
+    start with 'status.innerHTML' and a semicolon ';'.
+8.  Finally, update Jolene's status to "online".

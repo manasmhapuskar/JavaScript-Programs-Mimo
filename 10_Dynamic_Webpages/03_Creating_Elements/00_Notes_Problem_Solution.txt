@@ -1,0 +1,35 @@
+Problem:
+Let's use JavaScript to create a new paragraph 
+for a friend request from Luke.
+
+
+Available: 
+<!doctype html>
+<html lang = "en">
+    <body>
+        <h3>
+            Friend requests
+        </h3>
+        <div>
+            <p>
+                Lea
+            </p>
+        </div>
+        <script>
+            
+        </script>
+    </body>
+</html>
+
+
+Solution:
+1.  For a new friend request, we'll need a new variable,
+    so start by creating a variable with 'var user;'
+2.  Next, code an equals '=', followed by 'document.createElement()',
+    to save a new element into 'user'.
+3.  We want the new element to be a paragraph,
+    so code "p" between the parentheses of the instruction.
+4.  To set some text in the new paragraph, first access its content with 'user',
+    followed by '.innerHTML' and a semicolon ';'.
+5.  Finally, code '=' followed by 'Luke' 
+    to set the username of the new friend request.

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Removing Duplicate Message
+        </title>
+    </head>
+    <body>
+        <h2>WebChat</h2>
+        <ul id="parent">
+            <li>Ron: You won't believe what happened?</li>
+            <li>What🤩?</li>
+            <li id="duplicate">What🤩?</li>
+        </ul>
+        <script>
+            var list = document.getElementById("parent");
+            var message = document.getElementById("duplicate");
+            list.removeChild(message);
+        </script>
+    </body>
+</html>
