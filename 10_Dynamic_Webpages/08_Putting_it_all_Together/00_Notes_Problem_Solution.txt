@@ -1,0 +1,146 @@
+Problem:
+In this project, we'll code a webpage with upvote and downvote buttons
+to increase and decrease the number of votes on a photos.
+
+
+Task:
+Part I
+We'll code the structure (HTML) part of our webpage.
+
+Part II
+You've got the structure down for your webpage.
+Now it's time to put your JavaScript skills to the test.
+You'll code a button that calls the 'upvote()' function when it's clicked.
+
+Part III
+Your upvoting feature works great.
+But for those who disagree, you'll need to build a downvote button.
+
+Part IV
+With JavaScript down, let's give this webpage style by adding some CSS.
+
+
+Solution:
+Part I
+*.  Code the doctype, html and body elements.
+1.  Let's get this webpage started by including the script element.
+2.  Create an 'h1' heading that displays "Bear of the Year" on the webpage
+    so users know they're voting on their favorite bear.
+3.  Add an image element below the heading 
+    and set its 'src' attribute to "https://mimo.app/i/panda.png".
+4.  Create a paragraph below the image with the text "Nom nom nom"
+    to give the image a caption.
+5.  Give emphasis to the caption.
+6.  Finally, let's get to the voting part.
+    Below the caption, create a paragraph with the text "3 votes".
+
+Part II
+1.  Create a 'counter' variable to keep count of all votes
+    and set it's initial value to 3.
+2.  Under the 'counter' variable, create the 'upvote()' function
+    that accesses 'counter' and increases it by 1.
+3.  Under the paragraphs, create a button displaying "Upvote",
+    with 'onclick' set to 'upvote()' and 'id' set to 'upvote'.
+4.  Add an 'id' attribute for the second paragraph and set it to 'votes'.
+5.  Inside the 'upvote()' function, 
+    access the element with the ID "votes".
+6.  Finally, set the inner HTML of the element with the id 'votes'
+    to 'counter + " votes"'.
+
+Part III
+1.  Create a button displaying "Downvote" 
+    and set its 'onclick' attribute to "downvote()"
+    and 'id' attribute to "downvote".
+2.  Create a 'downvote()' function that decreases 'counter' by 1,
+    and updates the paragraph with the ID "votes" to 'counter + " votes"'.
+
+Part IV
+1.  Include the stylesheet.
+2.  Create a rule to style the 'p' element with ID votes
+    by setting 'font-weight' to 'bold' and the 'font-size' to '25px'.
+3.  Use the 'downvote' selector to set the downvote button
+    'background-color' to 'red'.
+4.  Using the 'upvote' selector, set the upvote button
+    'background-color' to 'green'.
+5.  Using the 'button' selector, style all buttons
+    by setting 'margin' to '5px', 'border-radius' to '10px' and 'border' to 'none'.
+6.  Inside the 'button' selector, style all buttons 
+    by setting 'color' to 'white', 'padding' to '10px' and 'font-size' to '16px'.
+7.  Use the 'img' selector to set the 'border-radius' to '10px'.
+8.  Use the 'body' selector to set the 'text-align' to 'center'.
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+Problem:
+In this project, we'll update the incoming orders of a pizza delivery
+service when the page refreshes.
+Other than adding new orders, 
+our code should move pizzas ready for delivery for the Ready list.
+ -->
+
+
+<!-- 
+Task:
+Part I
+We'll manage the order list by creating HTML elements with JavaScript
+
+Part II
+To move an element between the Order and Ready lists,
+we delete the element from the first list and then add it to the second.
+
+
+Available Code:
+<!doctype html>
+<html lang = "en">
+    <head>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <img src = "https://mimo.app/i/tonys-pizza-logo.png" alt = "">
+        <div class = "incoming">
+            <h3>Orders</h3>
+            <ul>
+                <li>2 Pizza Margherita, extra cheese</li>
+            </ul>
+        </div>
+        <div class = "ready">
+            <h3>Ready</h3>
+            <ul>
+                
+            </ul>
+        </div>
+    </body>
+</html>
+
+
+Solution:
+Part I
+1.  Include JavaScript in HTML code.
+2.  When the page refreshers, we'll add new orders to the orders list.
+    Set the ID 'orders' on the first 'ul' list, so that we can access it.
+3.  In the 'script.js' file, create the variable 'orderList'.
+    Then, access the list with the ID 'orders', and save it in the variable.
+4.  A new pizza order came in! Create the variable 'marinara'.
+    Then, create a list item and save it into the variable.
+5.  Next, use '.innerHTML' to set the text of the created element to "1 Pizza Marinara".
+6.  Finally, display the new pizza order by using '.appendChild()'
+    to add 'marinara' to 'orderList'.
+7.  Let's add another order! Create the variable 'romana'.
+    Then, create a new list item and save it in the variable.
+8.  Set the new list item's text to "1 Pizza Romana, extra anchovies".
+
+Part II
+1.  To access the second list, we need to set an ID.
+    Set the ID 'ready' to the second 'ul' element.
+2.  Create a 'readyList' variable, then access the list with the ID 'ready'
+    and save it in the variable.
+3.  Add the ID 'margherita' to the list item of the ul element.
+4.  To move margherita to ready, create the variable 'margherita'.
+    Then, access the item with the ID 'margherita' and store it in the variable.
+5.  Start by using 'removeChild' to remove 'margherita' from 'orderList'.
+6.  Finally, since we already have the 'margherita' variable containing the list item,
+    we can use 'appendChild' to add it to the 'readyList'.

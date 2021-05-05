@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+.bear-img {
+    border-radius: 10px;
+}
+
+.caption-p {
+    font-style: italic;
+}
+
+#vote-counter-p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#upvote-button {
+    background-color: green;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+#downvote-button {
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+}
