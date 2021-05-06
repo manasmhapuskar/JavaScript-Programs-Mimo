@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Add to Cart Feature
+        </title>
+
+        <link rel="stylesheet" href="../stylesheets/01-add-to-cart-feature.css">
+    </head>
+    <body>
+        <h1>Online Store</h1>
+        <img id="cart-img" onclick="clickCart()" src="https://mimo.app/i/cart.png" alt="">
+        <h2 id="item-counter">0</h2>
+        <p id="order-total"></p>
+        
+        <div class="product">
+            <img src="https://mimo.app/i/backpack.png" alt="">
+            <h3>Backpack</h3>
+            <button onclick="addToCart()">Add to Cart</button>
+            <button onclick="removeFromCart()">Remove from Cart</button>
+        </div>
+        
+        <div class="product">
+            <img src="https://mimo.app/i/camera.png" alt="">
+            <h3>Camera</h3>
+            <button onclick="addToCart()">Add to Cart</button>
+            <button onclick="removeFromCart()">Remove from Cart</button>
+        </div>
+        
+        <script src="../01-add-to-cart-feature.js"></script>
+    </body>
+</html>

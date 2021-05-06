@@ -1,0 +1,28 @@
+body {
+    color: midnightblue;
+    font-family: helvetica;
+}
+
+.product {
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+}
+
+#cart-img {
+    position: absolute;
+    top: 25px;
+    right: 70%;
+}
+
+#item-counter {
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    right: 73%;
+}
+
+#order-total {
+    text-align: right;
+    margin-right: 70%;
+}
