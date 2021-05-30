@@ -1,3 +1,15 @@
+/*
+Problem:
+Let's create a trivia program
+We'll use comparisons to check if the player's answers are correct.
+
+
+Task:
+We'll store the correct answer and the two user answers in variables
+and then compare them.
+*/
+
+
 console.log("What color is the sky?");
 var correctAnswer = "blue";
 
