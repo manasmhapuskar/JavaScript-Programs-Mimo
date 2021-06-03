@@ -1,3 +1,15 @@
+/*
+Problem:
+Let's use an 'if/else' statement to write code for an app
+that keeps track of your steps and compares them with your daily goal.
+
+
+Task:
+If the user's step count reaches their daily goal, we'll let them know.
+Otherwise, we'll let them know how many steps they have left.
+*/
+
+
 var stepCount = 9222;
 var dailyGoal = 8000;
 
