@@ -1,3 +1,15 @@
+/*
+Problem:
+A major greeting card company wants to provide support
+for different languages on their website.
+
+
+Task:
+Let's help them out by updating the 'message' variable to
+different messages depending on the 'language' a user requests.
+*/
+
+
 var message = "";
 var language = "Hindi";
 

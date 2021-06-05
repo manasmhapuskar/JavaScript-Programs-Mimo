@@ -1,3 +1,10 @@
+/*
+Problem:
+Let's build a social media program that displays different messages 
+based on the number of likes a post gets.
+*/
+
+
 var likes = 1;
 
 if (likes === 0) {
