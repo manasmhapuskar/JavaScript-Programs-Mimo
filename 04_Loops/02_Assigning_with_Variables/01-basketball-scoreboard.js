@@ -1,3 +1,10 @@
+/*
+Problem:
+Let's write a program that uses ++ and += operators
+to keep track of a basketball team points.
+*/
+
+
 var points = 0;
 console.log("Points before: " + points);
 
