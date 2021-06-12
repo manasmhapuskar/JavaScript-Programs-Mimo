@@ -1,3 +1,15 @@
+/*
+Problem:
+Let's use our knowledge on arrays 
+to assemble a team for an online soccer game
+
+
+Task:
+We'll create four arrays that store 
+the names of players for each position
+*/
+
+
 console.log("Arsenal FC Team");
 
 var goalkeepers = ["Leno"];
