@@ -1,3 +1,10 @@
+/*
+Problem:
+WAP that uses functions to display the placeholder
+for a bingo board in the console.
+*/
+
+
 function line() {
     console.log("---------------");
 }
