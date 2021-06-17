@@ -1,3 +1,10 @@
+/*
+Problem:
+WAP that simulates how we could use functions 
+to control parts of a music playing app.
+*/
+
+
 function playlistPicker(genre) {
     var play = "Current playlist: ";
     console.log(play + genre);
