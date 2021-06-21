@@ -1,3 +1,17 @@
+/*
+Problem:
+Our streaming service is producing its own show.
+Let's add some methods to start streaming and get those "views" up.
+
+
+Available Code:
+var show = {
+    name: "Pick and Shorty",
+    views: 10
+};
+*/
+
+
 var show = {
     name: "Rick and Morty",
     views: 10,
