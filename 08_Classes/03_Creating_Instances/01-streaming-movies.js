@@ -1,3 +1,14 @@
+/*
+Problem:
+Let's write some code and practice our knowledge about Class Instances.
+
+
+Task:
+We'll create a class template for the movies on a streaming website.
+Then we'll create a few instances for movies to try it out.
+*/
+
+
 class Movie {
     constructor(name) {
         this.name = name;
