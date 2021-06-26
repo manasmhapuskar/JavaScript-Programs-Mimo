@@ -1,3 +1,14 @@
+/*
+Problem:
+Joe is involved in developing an adventure game.
+He's in charge of the human and pirate characters.
+
+
+Task:
+We'll give him a hand in customizing the character's behaviors.
+*/
+
+
 class Human {
     constructor(name) {
         this.name = name;
