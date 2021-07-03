@@ -1,3 +1,14 @@
+/*
+Problem:
+A store wants to allow customers 
+to review their most recent purchase online.
+
+
+Task:
+We'll help them out by creating a 'Customer' class.
+*/
+
+
 class USCustomer {
     constructor(amount) {
         this.amount = amount;
