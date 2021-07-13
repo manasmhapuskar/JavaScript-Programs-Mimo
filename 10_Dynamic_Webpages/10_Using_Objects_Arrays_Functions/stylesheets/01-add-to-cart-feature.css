@@ -1,3 +1,17 @@
+/* 
+Problem:
+In this project, we'll use objects, arrays, and functions
+to add items to a cart to build the online store.
+
+
+Part III
+We've got the structure in place, 
+but we'll need to move these elements around with some CSS.
+Let's move the shopping cart to the right-hand corner of the page
+and display the products next to each other.
+*/
+
+
 body {
     color: midnightblue;
     font-family: helvetica;

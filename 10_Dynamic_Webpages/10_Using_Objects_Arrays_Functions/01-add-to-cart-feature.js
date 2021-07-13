@@ -1,3 +1,24 @@
+/*
+Problem:
+In this project, we'll use objects, arrays, and functions
+to add items to a cart to build the online store.
+
+
+Part IV
+With the HTML and CSS making our page look great,
+let's add items to the cart and update the item counter with JavaScript.
+
+Part V
+Great job making the item counter update with each click of an "Add to Cart" button.
+Now, let's show the total cost of all items in the cart
+when users click on the cart image.
+
+Part VI
+Let's create a function that adds a shipping cost based on the 'total'.
+If the customer's 'total' is high enough, we'll apply a discount.
+*/
+
+
 var cartItems = [];
 var isTotalHidden = true;
 
