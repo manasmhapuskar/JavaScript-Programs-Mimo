@@ -10,7 +10,7 @@ to tell the world about him. Or at least the console.
 */
 
 
-var name = "Mario";
+var player_name = "Mario";
 var job = "Plumber";
 
 console.log(name);
