@@ -13,5 +13,5 @@ to tell the world about him. Or at least the console.
 var player_name = "Mario";
 var job = "Plumber";
 
-console.log(name);
+console.log(player_name);
 console.log(job);
