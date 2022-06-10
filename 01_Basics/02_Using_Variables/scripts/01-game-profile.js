@@ -1,7 +1,7 @@
 var firstName = "Mike ";
 var secondName = "Tyson";
 
-var username = firstName + secondName;
+var userName = firstName + secondName;
 console.log("Username: " + username);
 
 
