@@ -12,7 +12,7 @@ while the other variables store the comparisons.
 
 
 var account = "admin";
-var status = "active";
+var accountStatus = "active";
 
 var isAdmin = account === "admin";
 var isValid = status !== "inactive";
