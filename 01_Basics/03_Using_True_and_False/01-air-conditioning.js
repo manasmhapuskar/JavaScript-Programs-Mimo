@@ -7,7 +7,6 @@ office air conditioner off over the weekend
 
 var isWeekday = false;
 var isAcOn = !true;
-
 console.log("Weekday");
 console.log(isWeekday);
 
