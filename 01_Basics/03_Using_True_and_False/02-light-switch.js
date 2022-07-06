@@ -7,7 +7,6 @@ if its daytime and on if its nighttime.
 
 var isDay = false;
 var lightsOn = isDay;
-
 console.log("Daytime?");
 console.log(isDay);
 
