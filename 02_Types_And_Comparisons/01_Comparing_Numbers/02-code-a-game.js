@@ -11,7 +11,6 @@ then create two other variables to save the comparisons
 
 
 var coins = 11;
-
 var mushroom = coins >= 10;
 var speed = coins >= 20;
 
