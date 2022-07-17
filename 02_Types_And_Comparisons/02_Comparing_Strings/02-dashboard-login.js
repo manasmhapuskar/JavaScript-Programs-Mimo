@@ -15,6 +15,5 @@ var account = "admin";
 var accountStatus = "active";
 var isAdmin = account === "admin";
 var isValid = accountStatus !== "inactive";
-
 console.log("Admin: " + isAdmin);
 console.log("Valid: " + isValid);
