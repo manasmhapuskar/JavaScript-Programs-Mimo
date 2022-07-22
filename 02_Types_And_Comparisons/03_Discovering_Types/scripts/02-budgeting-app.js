@@ -10,7 +10,6 @@ var newLaptop = 600;
 var budgetLeft = budget - totalCosts;
 
 var buyLaptop = budgetLeft >= newLaptop;
-
 console.log("Can we buy the laptop?");
 console.log(buyLaptop);
 console.log("Do we need to save?");
