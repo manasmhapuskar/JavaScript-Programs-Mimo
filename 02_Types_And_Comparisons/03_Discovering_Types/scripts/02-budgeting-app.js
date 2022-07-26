@@ -5,7 +5,6 @@ var savingsPriority = "high";
 var rent = 450;
 var utilities = 150;
 var totalCosts = rent + utilities;
-
 var newLaptop = 600;
 var budgetLeft = budget - totalCosts;
 var buyLaptop = budgetLeft >= newLaptop;
