@@ -1,6 +1,5 @@
 var budget = 1200;
 var savingsPriority = "high";
-
 var rent = 450;
 var utilities = 150;
 var totalCosts = rent + utilities;
