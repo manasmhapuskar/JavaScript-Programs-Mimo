@@ -10,7 +10,6 @@ if the song is already in the playlist.
 
 
 var song = "Got me thinking";
-
 console.log("New entry: " + song);
 var isSongInPlaylist = "Got me thinking" === song;
 if (isSongInPlaylist) {
