@@ -12,7 +12,6 @@ Otherwise, we'll let them know how many steps they have left.
 
 var stepCount = 9222;
 var dailyGoal = 8000;
-
 var hasGoalReached = stepCount >= dailyGoal;
 if (hasGoalReached) {
     console.log("Daily goal reached!");
