@@ -14,7 +14,6 @@ console.log("Are you hungry?");
 var answer = "Yes";
 
 console.log(answer);
-
 if (answer === "No") {
     console.log("Me neither");
 } else if (answer === "Yes") {
