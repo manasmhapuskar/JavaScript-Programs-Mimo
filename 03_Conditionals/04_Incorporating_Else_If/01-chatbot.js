@@ -12,7 +12,6 @@ use it to give a response to the user.
 console.log("Are you hungry?");
 
 var answer = "Yes";
-
 console.log(answer);
 if (answer === "No") {
     console.log("Me neither");
