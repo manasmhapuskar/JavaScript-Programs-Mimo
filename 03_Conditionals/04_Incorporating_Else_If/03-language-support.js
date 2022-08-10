@@ -26,5 +26,4 @@ if (language === "English") {
 } else if (language === "Japanese") {
     message = "Arigato";
 }
-
 console.log("Message: " + message);
