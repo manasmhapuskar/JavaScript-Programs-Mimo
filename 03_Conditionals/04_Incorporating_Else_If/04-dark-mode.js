@@ -44,7 +44,6 @@ if (mode === "light") {
     image = "Mimo-Ninja"; 
     
 }
-
 console.log(label);
 console.log(color);
 console.log(image);
