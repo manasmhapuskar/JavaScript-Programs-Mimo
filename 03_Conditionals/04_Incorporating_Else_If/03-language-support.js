@@ -12,7 +12,6 @@ different messages depending on the 'language' a user requests.
 
 var message = "";
 var language = "Hindi";
-
 console.log("Language chosen: " + language);
 if (language === "English") {
     message = "Thank you";
