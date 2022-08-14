@@ -38,7 +38,6 @@ if (mode === "light") {
     image = "Mimo-Dark";
 
 } else {
-
     label = "Ninja Mode";
     color = "Dark Gray";
     image = "Mimo-Ninja"; 
