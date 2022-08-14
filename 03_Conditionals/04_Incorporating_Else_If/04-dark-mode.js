@@ -42,7 +42,6 @@ if (mode === "light") {
     label = "Ninja Mode";
     color = "Dark Gray";
     image = "Mimo-Ninja"; 
-    
 }
 console.log(label);
 console.log(color);
