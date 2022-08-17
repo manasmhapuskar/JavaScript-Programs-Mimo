@@ -32,7 +32,6 @@ if (mode === "light") {
     image = "Mimo-White";
 
 } else if (mode === "dark") {
-
     label = "Dark Mode";
     color = "Dark Blue";
     image = "Mimo-Dark";
