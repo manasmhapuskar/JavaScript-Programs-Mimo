@@ -26,7 +26,6 @@ var image;
 
 
 if (mode === "light") {
-
     label = "Light Mode";
     color = "White";
     image = "Mimo-White";
