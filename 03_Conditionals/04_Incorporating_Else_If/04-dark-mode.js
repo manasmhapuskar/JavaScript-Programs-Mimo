@@ -23,7 +23,6 @@ var mode = "light";
 var label;
 var color;
 var image;
-
 if (mode === "light") {
     label = "Light Mode";
     color = "White";
