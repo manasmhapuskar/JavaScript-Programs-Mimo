@@ -19,7 +19,6 @@ When you're finished, we'll link the JavaScript to put the buttons into action.
 
 
 var mode = "light";
-
 var label;
 var color;
 var image;
