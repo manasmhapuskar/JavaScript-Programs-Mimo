@@ -32,5 +32,4 @@ account = account - 13;
 
 console.log("$65 TV purchased");
 account = account - 65; 
-
 console.log("Account: $" + account);
